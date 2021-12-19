@@ -41,7 +41,7 @@ cp ./firacode.ttf ~/.local/share/fonts > /dev/null 2>&1
 fc-cache -f -v > /dev/null 2>&1
 
 echo "-> Installing Starship prompt"
-source "$(curl -fsSL https://starship.rs/install.sh)" > /dev/null 2>&1
+sh -c "$(curl -fsSL https://starship.rs/install.sh)" > /dev/null 2>&1
 
 echo "-> Creating scripts directory"
 mkdir ~/stuff/scripts > /dev/null 2>&1
