@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/rune/colors.sh'
+let g:netrw_dirhist_2='/home/rune/inspircd-3.8.1/run/conf/examples'
+let g:netrw_dirhist_3='/home/rune/js/api'

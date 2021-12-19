@@ -1,0 +1,34 @@
+# Inserts ablank line between shell prompts
+add_newline = true
+
+# Replace the "❯" symbol in the prompt with "➜"
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = "[λ](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+error_symbol = "[✗](bold red) "
+
+# Disable the package module, hiding it from the prompt completely
+[hostname]
+disabled = true
+
+[directory]
+style = "blue"
+read_only = ""
+truncation_symbol = ".../"
+truncation_length = 5
+
+[username]
+style_user = "green"
+disabled = true
+
+[memory_usage]
+disabled = false
+threshold = 90
+
+[cmd_duration]
+disabled = true
+
+[package]
+disabled = true
+
+[jobs]
+disabled = true
