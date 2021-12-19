@@ -190,7 +190,7 @@ alias svr="ssh -p 69 -i ~/.ssh/id_rsa rune@152.89.239.74"
 #alias spt="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
 
 #gopath to path
-export PATH=~/go/bin:~/.local/bin:$PATH
+export PATH=~/go/bin:$PATH
 
 #scripts to path
 export PATH=~/stuff/scripts/bin:$PATH
