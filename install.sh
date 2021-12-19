@@ -36,46 +36,33 @@ then
 fi
 
 echo "-> Installing Fira Code font"
-{
-    mkdir ~/.local/share/fonts
-    cp ./firacode.ttf ~/.local/share/fonts
-    fc-cache -f -v
-} &> /dev/null
-wait
+mkdir ~/.local/share/fonts > /dev/null 2>&1
+cp ./firacode.ttf ~/.local/share/fonts > /dev/null 2>&1
+fc-cache -f -v > /dev/null 2>&1
 
 echo "-> Installing Starship prompt"
-{source "$(curl -fsSL https://starship.rs/install.sh)"} &> /dev/null
-wait
+source "$(curl -fsSL https://starship.rs/install.sh)" > /dev/null 2>&1
 
 echo "-> Creating scripts directory"
-{mkdir ~/stuff/scripts} &> /dev/null
-wait
+mkdir ~/stuff/scripts > /dev/null 2>&1
 
 echo "-> Installing goto"
-{wget -O ~/stuff/scripts/goto.sh https://raw.githubusercontent.com/iridakos/goto/master/goto.sh} &> /dev/null
-wait
+wget -O ~/stuff/scripts/goto.sh https://raw.githubusercontent.com/iridakos/goto/master/goto.sh > /dev/null 2>&1
 
 echo "-> Installing up"
-{wget -O ~/stuff/scripts/up.sh https://raw.githubusercontent.com/shannonmoeller/up/master/up.sh} &> /dev/null
-wait
+wget -O ~/stuff/scripts/up.sh https://raw.githubusercontent.com/shannonmoeller/up/master/up.sh > /dev/null 2>&1
+
 
 echo "-> Creating directory for PATH"
-{mkdir ~/stuff/scripts/bin} &> /dev/null
-wait
+mkdir ~/stuff/scripts/bin > /dev/null 2>&1
 
 echo "-> Installing ext"
-{
-    wget -O ~/stuff/scripts/bin/ext.sh https://raw.githubusercontent.com/Manas140/sh/main/src/ext
-    mv ~/stuff/scripts/bin/ext.sh ~/stuff/scripts/bin/ext
-}&> /dev/null
-wait
+wget -O ~/stuff/scripts/bin/ext.sh https://raw.githubusercontent.com/Manas140/sh/main/src/ext > /dev/null 2>&1
+mv ~/stuff/scripts/bin/ext.sh ~/stuff/scripts/bin/ext > /dev/null 2>&1
 
 echo "-> Installing calc"
-{
-    wget -O ~/stuff/scripts/bin/calc.sh https://raw.githubusercontent.com/Manas140/sh/main/src/calc
-    mv ~/stuff/scripts/bin/calc.sh ~/stuff/scripts/bin/calc
-} &> /dev/null
-wait
+wget -O ~/stuff/scripts/bin/calc.sh https://raw.githubusercontent.com/Manas140/sh/main/src/calc > /dev/null 2>&1
+mv ~/stuff/scripts/bin/calc.sh ~/stuff/scripts/bin/calc > /dev/null 2>&1
 
 echo "-> Everything installed"
 source ~/.bashrc
