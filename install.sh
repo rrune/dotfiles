@@ -31,7 +31,6 @@ read -p "-> Install Starship prompt? [Y/n] " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-    echo "-> Installing Starship prompt"
     sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 fi
 
@@ -69,5 +68,4 @@ echo "-> Installing calc"
 wget -O ~/stuff/scripts/bin/calc.sh https://raw.githubusercontent.com/Manas140/sh/main/src/calc > /dev/null 2>&1
 mv ~/stuff/scripts/bin/calc.sh ~/stuff/scripts/bin/calc > /dev/null 2>&1
 
-echo "-> Everything installed"
-source ~/.bashrc
+echo "-> Everything installed. Restart or type 'source ~/.bashrc'"
