@@ -19,8 +19,11 @@ fi
 echo "-> Linking bashrc"
 ln -sf ${SCRIPT_DIR}/bashrc ~/.bashrc
 
-echo "-> Linking ~/.config/nvim"
-ln -sf ${SCRIPT_DIR}/config/nvim ~/.config/nvim
+echo "-> Linking gitconfig"
+ln -sf ${SCRIPT_DIR}/gitconfig ~/.gitconfig
+
+#echo "-> Linking ~/.config/nvim"
+#ln -sf ${SCRIPT_DIR}/config/nvim ~/.config/nvim
 
 echo "-> Linking starship.toml"
 ln -sf ${SCRIPT_DIR}/config/starship.toml ~/.config/starship.toml
@@ -32,7 +35,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 
     echo "-> Installing Fira Code font"
     mkdir ~/.local/share/fonts >/dev/null 2>&1
-    cp ./firacode.ttf ~/.local/share/fonts >/dev/null 2>&1
+    cp ./files/firacode.ttf ~/.local/share/fonts >/dev/null 2>&1
     fc-cache -f -v >/dev/null 2>&1
 fi
 
