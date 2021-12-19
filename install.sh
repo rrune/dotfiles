@@ -27,7 +27,15 @@ ln -sf ${SCRIPT_DIR}/config/nvim ~/.config/nvim
 echo "-> Linking starship.toml"
 ln -sf ${SCRIPT_DIR}/config/starship.toml ~/.config/starship.toml
 
-read -p "-> Install prompt and scripts (External sources)? [Y/n] " -n 1 -r
+read -p "-> Install Starship prompt? [Y/n] " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    echo "-> Installing Starship prompt"
+    sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+fi
+
+read -p "-> Install scripts (External sources)? [Y/n] " -n 1 -r
 echo
 if [[ ! $REPLY =~ ^[Yy]$ ]]
 then
@@ -39,9 +47,6 @@ echo "-> Installing Fira Code font"
 mkdir ~/.local/share/fonts > /dev/null 2>&1
 cp ./firacode.ttf ~/.local/share/fonts > /dev/null 2>&1
 fc-cache -f -v > /dev/null 2>&1
-
-echo "-> Installing Starship prompt"
-sh -c "$(curl -fsSL https://starship.rs/install.sh)" > /dev/null 2>&1
 
 echo "-> Creating scripts directory"
 mkdir ~/stuff/scripts > /dev/null 2>&1
