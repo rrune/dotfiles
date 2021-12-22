@@ -25,13 +25,14 @@ ln -sf ${SCRIPT_DIR}/gitconfig ~/.gitconfig
 #echo "-> Linking ~/.config/nvim"
 #ln -sf ${SCRIPT_DIR}/config/nvim ~/.config/nvim
 
-echo "-> Linking starship.toml"
-ln -sf ${SCRIPT_DIR}/config/starship.toml ~/.config/starship.toml
 
 read -p "-> Install Starship prompt? [Y/n] " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+
+    echo "-> Linking starship.toml"
+    ln -sf ${SCRIPT_DIR}/config/starship.toml ~/.config/starship.toml
 
     echo "-> Installing Fira Code font"
     mkdir ~/.local/share/fonts >/dev/null 2>&1
