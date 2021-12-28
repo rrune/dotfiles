@@ -183,6 +183,9 @@ alias dup="docker-compose up -d"
 alias dop="docker-compose stop"
 alias dwn="docker-compose down"
 
+#default editor
+export VISUAL="nvim"
+
 #server
 alias svr="ssh -p 69 -i ~/.ssh/id_rsa rune@152.89.239.74"
 
