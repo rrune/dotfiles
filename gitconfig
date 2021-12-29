@@ -5,3 +5,5 @@
 [user]
 	email = 42575387+rrune@users.noreply.github.com
 	name = rune
+[init]
+	defualtBranch = main

@@ -25,6 +25,12 @@ ln -sf ${SCRIPT_DIR}/gitconfig ~/.gitconfig
 #echo "-> Linking ~/.config/nvim"
 #ln -sf ${SCRIPT_DIR}/config/nvim ~/.config/nvim
 
+echo "Creating ~/.local/share/fonts"
+mkdir -p ~/.local/share/fonts >/dev/null 2>&1
+
+echo "Installing Fonts (Firacode, Someday"
+cp ./files/* ~/.local/share/fonts >/dev/null 2>&1
+fc-cache -f -v >/dev/null 2>&1
 
 read -p "-> Install Starship prompt? [Y/n] " -n 1 -r
 echo
@@ -32,12 +38,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 
     echo "-> Linking starship.toml"
-    ln -sf ${SCRIPT_DIR}/config/starship.toml ~/.config/starship.toml
-
-    echo "-> Installing Fira Code font"
-    mkdir ~/.local/share/fonts >/dev/null 2>&1
-    cp ./files/firacode.ttf ~/.local/share/fonts >/dev/null 2>&1
-    fc-cache -f -v >/dev/null 2>&1
+    ln -sf ${SCRIPT_DIR}/config/starship.toml ~/.config/starship.toml 
 fi
 
 read -p "-> Install scripts (External sources)? [Y/n] " -n 1 -r
@@ -48,7 +49,7 @@ if [[ ! $REPLY =~ ^[Yy]$ ]]; then
 fi
 
 echo "-> Creating scripts directory"
-mkdir ~/stuff/scripts >/dev/null 2>&1
+mkdir -p ~/stuff/scripts >/dev/null 2>&1
 
 echo "-> Installing goto"
 curl -o ~/stuff/scripts/goto.sh https://raw.githubusercontent.com/iridakos/goto/master/goto.sh >/dev/null 2>&1
@@ -57,7 +58,7 @@ echo "-> Installing up"
 curl -o ~/stuff/scripts/up.sh https://raw.githubusercontent.com/shannonmoeller/up/master/up.sh >/dev/null 2>&1
 
 echo "-> Creating directory for PATH"
-mkdir ~/stuff/scripts/bin >/dev/null 2>&1
+mkdir -p ~/stuff/scripts/bin >/dev/null 2>&1
 
 read -p "-> Sudo needed for chmod. Install? [Y/n] " -n 1 -r
 echo

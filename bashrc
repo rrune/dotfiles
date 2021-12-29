@@ -186,6 +186,9 @@ alias dwn="docker-compose down"
 #default editor
 export VISUAL="nvim"
 
+#doas autocomplete
+complete -cf doas
+
 #server
 alias svr="ssh -p 69 -i ~/.ssh/id_rsa rune@152.89.239.74"
 
