@@ -190,7 +190,11 @@ export VISUAL="nvim"
 complete -cf doas
 
 #server
-alias svr="ssh -p 69 -i ~/.ssh/id_rsa rune@152.89.239.74"
+alias Legacysvr="ssh -p 69 -i ~/.ssh/id_rsa rune@152.89.239.74"
+alias svr="mosh rune@qnd.be --ssh='ssh -p 69 -i ~/.ssh/id_rsa'"
+
+#get ip
+alias getIP="curl ifconfig.me"
 
 #spotify
 #alias spt="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
