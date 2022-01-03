@@ -22,13 +22,13 @@ ln -sf ${SCRIPT_DIR}/bashrc ~/.bashrc
 echo "-> Linking gitconfig"
 ln -sf ${SCRIPT_DIR}/gitconfig ~/.gitconfig
 
-#echo "-> Linking ~/.config/nvim"
-#ln -sf ${SCRIPT_DIR}/config/nvim ~/.config/nvim
+echo "-> Linking ~/.config/nvim"
+ln -sf ${SCRIPT_DIR}/config/nvim ~/.config/nvim
 
-echo "Creating ~/.local/share/fonts"
+echo "-> Creating ~/.local/share/fonts"
 mkdir -p ~/.local/share/fonts >/dev/null 2>&1
 
-echo "Installing Fonts (Firacode, Someday"
+echo "-> Installing Fonts (Firacode, Someday)"
 cp ./files/* ~/.local/share/fonts >/dev/null 2>&1
 fc-cache -f -v >/dev/null 2>&1
 
