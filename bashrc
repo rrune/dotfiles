@@ -190,8 +190,9 @@ export VISUAL="nvim"
 complete -cf doas
 
 #server
-alias Legacysvr="ssh -p 69 -i ~/.ssh/id_rsa rune@152.89.239.74"
+alias legacysvr="ssh -p 69 -i ~/.ssh/id_rsa rune@qnd.be"
 alias svr="mosh rune@qnd.be --ssh='ssh -p 69 -i ~/.ssh/id_rsa'"
+alias svrsftp="sftp -P 69 -i ~/.ssh/id_rsa rune@qnd.be"
 
 #get ip
 alias getIP="curl ifconfig.me"
