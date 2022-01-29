@@ -73,8 +73,10 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
         curl -o ~/stuff/scripts/bin/calc.sh https://raw.githubusercontent.com/Manas140/sh/main/src/calc >/dev/null 2>&1
         mv ~/stuff/scripts/bin/calc.sh ~/stuff/scripts/bin/calc >/dev/null 2>&1
 
-        sudo chmod +x ~/stuff/scripts/bin/ext
-        sudo chmod +x ~/stuff/scripts/bin/calc
+        echo "-> Installing scripts from local folder"
+        cp -r ./scripts/* ~/stuff/scripts
+
+        sudo chmod +x ~/stuff/scripts/bin/*
     else
         echo "-> Wrong password. Skiping"
     fi

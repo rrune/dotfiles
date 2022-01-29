@@ -1,0 +1,27 @@
+body {
+  /* font-family: serif; */
+	font-size: 12px;
+}
+
+article {
+  /* padding: 10px 2.5cm 0 2.5cm; */
+  text-align: justify;
+}
+
+h4 {
+	text-align: left !important;
+	margin: 10px 0 0 0;
+}
+
+.logo {
+  height: 75px;
+  display: block;
+	margin: 0 auto 10px auto;
+}
+
+.freud {
+	height: 100px;
+	float: right;
+	display: inline;
+	margin: 0 0 0 10px;
+}

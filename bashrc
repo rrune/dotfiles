@@ -177,6 +177,14 @@ _Pacdiff() {
     fi
 }
 
+#url shortener
+qnd() {
+  curl -X POST -H "Authorization: Bearer #GG2407" -d $1 https://qnd.be
+}
+qndelete() {
+  curl -X DELETE -H "Authorization: Bearer #GG2407" -d $1 https://qnd.be
+}
+
 #docker
 alias dups="docker-compose up"
 alias dup="docker-compose up -d"

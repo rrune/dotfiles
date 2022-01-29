@@ -10,6 +10,7 @@ Scripts:
 - [up](https://github.com/shannonmoeller/up)
 - [ext](https://github.com/Manas140/sh)
 - [calc](https://github.com/Manas140/sh)
+- [treesize](https://blog.aclarke.eu/2011/09/21/a-simple-treesize-shell-script-for-linux/)
 
 Other stuff:
 - [Starship prompt](https://starship.rs/)
