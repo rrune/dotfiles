@@ -179,23 +179,23 @@ _Pacdiff() {
 
 #url shortener
 qnd() {
-  curl -X POST -H "Authorization: Bearer #GG2407" -d "$1" https://qnd.be
+  curl -X POST -H "Authorization: Bearer ${2}" -d "$1" https://qnd.be
 }
 qndelete() {
-  curl -X DELETE -H "Authorization: Bearer #GG2407" -d "$1" https://qnd.be
+  curl -X DELETE -H "Authorization: Bearer ${2}" -d "$1" https://qnd.be
 }
 
 #remind
 remind() {
   if [$1 -eq ""]
   then
-    curl -H "Authorization: Bearer #GG2407" https://api.qnd.be
+    curl -H "Authorization: Bearer ${2}" https://api.qnd.be
     return
   fi
-  curl -X POST -H "Authorization: Bearer #GG2407" -d "$1" https://api.qnd.be
+  curl -X POST -H "Authorization: Bearer ${2}" -d "$1" https://api.qnd.be
 }
 remindelte() {
-  curl -X DELETE -H "Authorization: Bearer #GG2407" -d "$1" https://api.qnd.be
+  curl -X DELETE -H "Authorization: Bearer ${2}" -d "$1" https://api.qnd.be
 }
 
 #docker
