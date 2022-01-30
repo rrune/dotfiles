@@ -187,7 +187,14 @@ qndelete() {
 
 #remind
 remind() {
-  if [$1 -eq ""]
+  if [[ $1 == "-h" ]]
+  then
+    echo "remind <reminder> <auth> -> new remind"
+    echo "remind -g <auth> -> get reminds"
+    echo "remindelete <id> <auth> -> delete remind"
+    return
+  fi
+  if [[ $1 == "-g" ]]
   then
     curl -H "Authorization: Bearer ${2}" https://api.qnd.be
     return
