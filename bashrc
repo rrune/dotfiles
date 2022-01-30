@@ -179,7 +179,9 @@ _Pacdiff() {
 
 #url shortener
 qnd() {
-  curl -X POST -H "Authorization: Bearer ${2}" -d "$1" https://qnd.be
+  res=$(curl -s -X POST -H "Authorization: Bearer ${2}" -d "$1" https://qnd.be)
+  echo "${res}" | xclip -selection clipboard
+  echo "${res}"
 }
 qndelete() {
   curl -X DELETE -H "Authorization: Bearer ${2}" -d "$1" https://qnd.be
