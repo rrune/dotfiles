@@ -1,6 +1,9 @@
 Some personal dotfiles
 
 # Credit
+bspwm design:
+- [7USTIN](https://github.com/7USTIN/dotfiles)
+
 Fonts:
 - [Sometype Mono](https://monospacedfont.com/)
 - [FiraCode Mono](https://github.com/tonsky/FiraCode)

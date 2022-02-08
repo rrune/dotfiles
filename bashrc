@@ -216,6 +216,9 @@ alias dwn="docker-compose down"
 #default editor
 export VISUAL="nvim"
 
+#copy
+alias c="xclip -selection clipboard"
+
 #doas autocomplete
 complete -cf doas
 
@@ -258,3 +261,7 @@ eval "$(starship init bash)"
 # alias ef='_open_files_for_editing'     # 'ef' opens given file(s) for editing
 # alias pacdiff=_Pacdiff
 ################################################################################
+
+# BEGIN_KITTY_SHELL_INTEGRATION
+if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
+# END_KITTY_SHELL_INTEGRATION

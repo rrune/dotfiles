@@ -1,0 +1,2 @@
+disord &
+thunderbird

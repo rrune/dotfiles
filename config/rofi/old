@@ -1,0 +1,8 @@
+configuration {
+	font: "SometypeMono 14";
+	kb-row-select: "Tab";
+	kb-row-tab: "";
+	modi: "drun,window";
+}
+
+@theme "theme"

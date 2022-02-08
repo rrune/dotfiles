@@ -1,0 +1,122 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to http://localhost:8080/",
+		"timestamp": 1643413069053
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2022-01-28T23:37:49.053Z",
+		"timestamp": 1643413069053
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.73.0 OpenSSL/1.1.1i zlib/1.2.11 brotli/1.0.9 zstd/1.5.2 libidn2/2.3.2 libssh2/1.9.0 nghttp2/1.42.0",
+		"timestamp": 1643413069053
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1643413069053
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1643413069053
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1643413069053
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1643413069053
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 2 cookies",
+		"timestamp": 1643413069054
+	},
+	{
+		"name": "TEXT",
+		"value": "Found bundle for host localhost: 0x3d3541a1b930 [serially]\n",
+		"timestamp": 1643413069058
+	},
+	{
+		"name": "TEXT",
+		"value": "Can not multiplex, even if we wanted to!\n",
+		"timestamp": 1643413069058
+	},
+	{
+		"name": "TEXT",
+		"value": "Re-using existing connection! (#5) with host localhost\n",
+		"timestamp": 1643413069058
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to localhost (::1) port 8080 (#5)\n",
+		"timestamp": 1643413069058
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "POST / HTTP/1.1\r\nHost: localhost:8080\r\nUser-Agent: insomnia/2021.7.2\r\nContent-Type: text/plain\r\nAccept: */*\r\nContent-Length: 16\r\n\r\n",
+		"timestamp": 1643413069058
+	},
+	{
+		"name": "DATA_OUT",
+		"value": "https://ruune.de",
+		"timestamp": 1643413069058
+	},
+	{
+		"name": "TEXT",
+		"value": "upload completely sent off: 16 out of 16 bytes\n",
+		"timestamp": 1643413069058
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1643413069184
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1643413069184
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Vary: Origin\r\n",
+		"timestamp": 1643413069184
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Fri, 28 Jan 2022 23:37:49 GMT\r\n",
+		"timestamp": 1643413069184
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Length: 3\r\n",
+		"timestamp": 1643413069184
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: text/plain; charset=utf-8\r\n",
+		"timestamp": 1643413069184
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1643413069184
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 3 B chunk",
+		"timestamp": 1643413069184
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #5 to host localhost left intact\n",
+		"timestamp": 1643413069184
+	}
+]

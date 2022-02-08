@@ -1,0 +1,13 @@
+config/substrata.vim into ~/.local/share/nvim/site/pack/packer/start/vim-substrata/colors
+
+install:
+bspwm
+sxhkd
+polybar
+picom-ibhagwan-git
+rofi
+kitty
+feh
+xorg-xsetroot
+siji-git
+

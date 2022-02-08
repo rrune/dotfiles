@@ -1,0 +1,6 @@
+configuration {
+	font: "SometypeMono 14";
+	modi: "drun,window";
+}
+
+@theme "theme"

@@ -25,6 +25,41 @@ ln -sf ${SCRIPT_DIR}/gitconfig ~/.gitconfig
 echo "-> Linking ~/.config/nvim"
 ln -sf ${SCRIPT_DIR}/config/nvim ~/.config/nvim
 
+echo "-> Linking ~/.config/bspwm"
+ln -sf ${SCRIPT_DIR}/config/bspwm ~/.config/bspwm
+
+
+echo "-> Linking ~/.config/gtk-3.0"
+ln -sf ${SCRIPT_DIR}/config/gtk-3.0 ~/.config/gtk-3.0
+
+
+echo "-> Linking ~/.config/picom"
+ln -sf ${SCRIPT_DIR}/config/picom ~/.config/picom
+
+
+echo "-> Linking ~/.config/rofi"
+ln -sf ${SCRIPT_DIR}/config/rofi ~/.config/rofi
+
+
+echo "-> Linking ~/.config/dunst"
+ln -sf ${SCRIPT_DIR}/config/dunst ~/.config/dunst
+
+
+echo "-> Linking ~/.config/Insomnia"
+ln -sf ${SCRIPT_DIR}/config/Insomnia ~/.config/Insomnia
+
+
+echo "-> Linking ~/.config/polybar"
+ln -sf ${SCRIPT_DIR}/config/polybar ~/.config/polybar
+
+
+echo "-> Linking ~/.config/sxhkd/"
+ln -sf ${SCRIPT_DIR}/config/sxhkd ~/.config/sxhkd
+
+
+echo "-> Linking ~/.config/kitty/"
+ln -sf ${SCRIPT_DIR}/config/kitty ~/.config/kitty
+
 echo "-> Creating ~/.local/share/fonts"
 mkdir -p ~/.local/share/fonts >/dev/null 2>&1
 

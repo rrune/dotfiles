@@ -1,0 +1,232 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://api.woses.de/spotifyRecent",
+		"timestamp": 1642967357678
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2022-01-23T19:49:17.678Z",
+		"timestamp": 1642967357678
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.73.0 OpenSSL/1.1.1i zlib/1.2.11 brotli/1.0.9 zstd/1.5.2 libidn2/2.3.2 libssh2/1.9.0 nghttp2/1.42.0",
+		"timestamp": 1642967357678
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1642967357678
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1642967357678
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1642967357678
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1642967357678
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 2 cookies",
+		"timestamp": 1642967357681
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 152.89.239.74:443...\n",
+		"timestamp": 1642967357698
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to api.woses.de (152.89.239.74) port 443 (#0)\n",
+		"timestamp": 1642967357731
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering h2\n",
+		"timestamp": 1642967357732
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1642967357732
+	},
+	{
+		"name": "TEXT",
+		"value": "successfully set certificate verify locations:\n",
+		"timestamp": 1642967357736
+	},
+	{
+		"name": "TEXT",
+		"value": " CAfile: /tmp/insomnia_2021.7.2/ca-certs.pem\n",
+		"timestamp": 1642967357736
+	},
+	{
+		"name": "TEXT",
+		"value": " CApath: none\n",
+		"timestamp": 1642967357736
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS handshake, Client hello (1):\n",
+		"timestamp": 1642967357736
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Server hello (2):\n",
+		"timestamp": 1642967357769
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Certificate (11):\n",
+		"timestamp": 1642967357806
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Server key exchange (12):\n",
+		"timestamp": 1642967357806
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Server finished (14):\n",
+		"timestamp": 1642967357806
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (OUT), TLS handshake, Client key exchange (16):\n",
+		"timestamp": 1642967357806
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):\n",
+		"timestamp": 1642967357806
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (OUT), TLS handshake, Finished (20):\n",
+		"timestamp": 1642967357806
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Finished (20):\n",
+		"timestamp": 1642967357839
+	},
+	{
+		"name": "TEXT",
+		"value": "SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384\n",
+		"timestamp": 1642967357839
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, server accepted to use http/1.1\n",
+		"timestamp": 1642967357839
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate:\n",
+		"timestamp": 1642967357839
+	},
+	{
+		"name": "TEXT",
+		"value": " subject: CN=ruune.de\n",
+		"timestamp": 1642967357839
+	},
+	{
+		"name": "TEXT",
+		"value": " start date: Jan 22 00:35:50 2022 GMT\n",
+		"timestamp": 1642967357839
+	},
+	{
+		"name": "TEXT",
+		"value": " expire date: Apr 22 00:35:49 2022 GMT\n",
+		"timestamp": 1642967357839
+	},
+	{
+		"name": "TEXT",
+		"value": " subjectAltName: host \"api.woses.de\" matched cert's \"api.woses.de\"\n",
+		"timestamp": 1642967357839
+	},
+	{
+		"name": "TEXT",
+		"value": " issuer: C=US; O=Let's Encrypt; CN=R3\n",
+		"timestamp": 1642967357839
+	},
+	{
+		"name": "TEXT",
+		"value": " SSL certificate verify ok.\n",
+		"timestamp": 1642967357839
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /spotifyRecent HTTP/1.1\r\nHost: api.woses.de\r\nUser-Agent: insomnia/2021.7.2\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1642967357839
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1642967358508
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1642967358508
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Server: nginx/1.21.3\r\n",
+		"timestamp": 1642967358508
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Sun, 23 Jan 2022 19:49:18 GMT\r\n",
+		"timestamp": 1642967358508
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: text/plain; charset=utf-8\r\n",
+		"timestamp": 1642967358508
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Transfer-Encoding: chunked\r\n",
+		"timestamp": 1642967358508
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1642967358508
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Vary: Origin\r\n",
+		"timestamp": 1642967358508
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1642967358508
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 15.8 KB chunk",
+		"timestamp": 1642967358508
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 15.2 KB chunk",
+		"timestamp": 1642967358510
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #0 to host api.woses.de left intact\n",
+		"timestamp": 1642967358510
+	}
+]

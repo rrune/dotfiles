@@ -1,0 +1,162 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=rj&api_key=a03ef2452262e8cc102403ea68648a7b&format=json",
+		"timestamp": 1642810535800
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2022-01-22T00:15:35.800Z",
+		"timestamp": 1642810535800
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.73.0 OpenSSL/1.1.1i zlib/1.2.11 brotli/1.0.9 zstd/1.5.1 libidn2/2.3.2 libssh2/1.9.0 nghttp2/1.42.0",
+		"timestamp": 1642810535800
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1642810535800
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1642810535800
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1642810535800
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1642810535800
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 2 cookies",
+		"timestamp": 1642810535803
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 130.211.19.189:80...\n",
+		"timestamp": 1642810535836
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to ws.audioscrobbler.com (130.211.19.189) port 80 (#0)\n",
+		"timestamp": 1642810535865
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /2.0/?method=user.getrecenttracks&user=rj&api_key=a03ef2452262e8cc102403ea68648a7b&format=json HTTP/1.1\r\nHost: ws.audioscrobbler.com\r\nUser-Agent: insomnia/2021.7.2\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1642810535865
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1642810536793
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1642810536793
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Server: openresty/1.13.6.2\r\n",
+		"timestamp": 1642810536793
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Sat, 22 Jan 2022 00:15:36 GMT\r\n",
+		"timestamp": 1642810536793
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json\r\n",
+		"timestamp": 1642810536793
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-length: 42394\r\n",
+		"timestamp": 1642810536793
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Access-Control-Allow-Methods: POST, GET, OPTIONS\r\n",
+		"timestamp": 1642810536793
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Access-Control-Allow-Origin: *\r\n",
+		"timestamp": 1642810536793
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Access-Control-Max-Age: 86400\r\n",
+		"timestamp": 1642810536793
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Via: 1.1 google\r\n",
+		"timestamp": 1642810536793
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1642810536793
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 13.1 KB chunk",
+		"timestamp": 1642810536793
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 4.2 KB chunk",
+		"timestamp": 1642810536820
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 6.9 KB chunk",
+		"timestamp": 1642810536822
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.8 KB chunk",
+		"timestamp": 1642810536823
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.8 KB chunk",
+		"timestamp": 1642810536825
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.8 KB chunk",
+		"timestamp": 1642810536828
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.8 KB chunk",
+		"timestamp": 1642810536829
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 5.5 KB chunk",
+		"timestamp": 1642810536834
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 604 B chunk",
+		"timestamp": 1642810536843
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #0 to host ws.audioscrobbler.com left intact\n",
+		"timestamp": 1642810536843
+	}
+]
