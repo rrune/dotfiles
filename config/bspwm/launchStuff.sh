@@ -1,2 +1,2 @@
-disord &
+discord &
 thunderbird
