@@ -1,6 +1,6 @@
 configuration {
 	font: "SometypeMono 14";
-	modi: "drun,window";
+	modi: "drun,window,run";
 }
 
 @theme "theme"
