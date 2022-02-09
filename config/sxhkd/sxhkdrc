@@ -26,8 +26,8 @@ super + Return
 	kitty
 
 # program launcher
-super + space
-	rofi -show drun
+super + {_,shift + } space
+	rofi -show {drun,run}
 
 
 # alt + Tab
