@@ -1,6 +1,6 @@
 [bar/bar-main]
 
-monitor = HDMI-0
+monitor = eDP1
 override-redirect = true
 wm-restack = bspwm
 
@@ -18,7 +18,7 @@ font-0 = "SometypeMono:pixelsize=10;2:antialias=false"
 font-1 = "Siji:size=12;2:antialias=false"
 
 modules-left = date
-modules-right = cpu memory temperature pulseaudio network
+modules-right = cpu memory temperature pulseaudio battery network
 modules-center = bspwm
 module-margin = 2
 
@@ -73,6 +73,28 @@ format = <label-volume>
 label-volume =  %percentage%%
 label-muted =
 click-right = pavucontrol & pulseaudio --check & pulseaudio -D
+
+;------------------
+
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ADP1
+
+time-format = %H:%M
+
+label-charging = %percentage%%
+label-discharging = %percentage%%
+
+format-discharging = <ramp-capacity> <label-discharging>
+format-charging = <label-charging>
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
 
 ;------------------
 
