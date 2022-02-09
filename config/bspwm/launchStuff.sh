@@ -1,2 +1,2 @@
 discord &
-thunderbird
+thunderbird &

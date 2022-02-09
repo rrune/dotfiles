@@ -22,36 +22,40 @@ ln -sf ${SCRIPT_DIR}/bashrc ~/.bashrc
 echo "-> Linking gitconfig"
 ln -sf ${SCRIPT_DIR}/gitconfig ~/.gitconfig
 
-echo "-> Copying ~/.config/nvim"
-cp -R ${SCRIPT_DIR}/config/nvim ~/.config/nvim
+#echo "-> Copying ~/.config/nvim"
+#cp -R ${SCRIPT_DIR}/config/nvim ~/.config/
 
-echo "-> Copying ~/.config/bspwm"
-cp -R ${SCRIPT_DIR}/config/bspwm ~/.config/bspwm
+read -p "-> install bspwm configuration? [Y/n] " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+    echo "-> Copying ~/.config/bspwm"
+    cp -R ${SCRIPT_DIR}/config/bspwm ~/.config/
 
-echo "-> Copying ~/.config/gtk-3.0/"
-cp -R ${SCRIPT_DIR}/config/gtk-3.0 ~/.config/gtk-3.0
+    echo "-> Copying ~/.config/sxhkd"
+    cp -R ${SCRIPT_DIR}/config/sxhkd ~/.config/
 
-echo "-> Copying ~/.config/picom"
-cp -R ${SCRIPT_DIR}/config/picom ~/.config/picom
+    echo "-> Copying ~/.config/polybar"
+    cp -R ${SCRIPT_DIR}/config/polybar ~/.config/
 
-echo "-> Copying ~/.config/rofi"
-cp -R ${SCRIPT_DIR}/config/rofi ~/.config/rofi
+    echo "-> Copying ~/.config/picom"
+    cp -R ${SCRIPT_DIR}/config/picom ~/.config/
 
-echo "-> Copying ~/.config/dunst"
-cp -R ${SCRIPT_DIR}/config/dunst ~/.config/dunst
+    echo "-> Copying ~/.config/rofi"
+    cp -R ${SCRIPT_DIR}/config/rofi ~/.config/
 
-echo "-> Copying ~/.config/Insomnia"
-cp -R ${SCRIPT_DIR}/config/Insomnia ~/.config/Insomnia
+    echo "-> Copying ~/.config/dunst"
+    cp -R ${SCRIPT_DIR}/config/dunst ~/.config/
 
-echo "-> Copying ~/.config/polybar"
-cp -R ${SCRIPT_DIR}/config/polybar ~/.config/polybar
+    echo "-> Copying ~/.config/kitty"
+    cp -R ${SCRIPT_DIR}/config/kitty ~/.config/
 
-echo "-> Copying ~/.config/sxhkd"
-cp -R ${SCRIPT_DIR}/config/sxhkd ~/.config/sxhkd
+    echo "-> Copying ~/.config/Insomnia"
+    cp -R ${SCRIPT_DIR}/config/Insomnia ~/.config/
 
-echo "-> Copying ~/.config/kitty"
-cp -R ${SCRIPT_DIR}/config/kitty ~/.config/kitty
 
+    echo "-> Copying ~/.config/gtk-3.0/"
+    cp -R ${SCRIPT_DIR}/config/gtk-3.0 ~/.config/
+fi
 
 echo "-> Creating ~/.local/share/fonts"
 mkdir -p ~/.local/share/fonts >/dev/null 2>&1
@@ -66,7 +70,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 
     echo "-> Linking starship.toml"
-    ln -sf ${SCRIPT_DIR}/config/starship.toml ~/.config/starship.toml 
+    ln -sf ${SCRIPT_DIR}/config/starship.toml ~/.config/starship.toml
 fi
 
 read -p "-> Install scripts (External sources)? [Y/n] " -n 1 -r
