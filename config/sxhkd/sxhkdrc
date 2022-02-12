@@ -31,8 +31,8 @@ super + {_,shift + } space
 
 
 # alt + Tab
-alt + Tab
-	rofi -show window -kb-accept-entry "!Alt-Tab,!Alt+Alt_L" -kb-row-down "Alt+Tab" -selected-row 1
+#alt + Tab
+#	rofi -show window -kb-accept-entry "!Alt-Tab,!Alt+Alt_L" -kb-row-down "Alt+Tab" -selected-row 1
 
 # browser
 super + a
