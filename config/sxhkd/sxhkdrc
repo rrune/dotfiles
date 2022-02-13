@@ -42,6 +42,10 @@ super + a
 super + shift + s
         flameshot gui
 
+# clipboard manager
+super + v
+        rofi -modi "paste:~/.config/rofi/paste-modi.sh" -show paste
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

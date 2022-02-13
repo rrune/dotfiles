@@ -9,6 +9,7 @@ bash ~/.fehbg &
 picom &
 dunst &
 alttab -w 1 -d 2 -bg "#1c1c1c" -fg "#b5b4c9" -frame "#b5b4c9" -font "xft:SometypeMono-12" &
+greenclip daemon &
 nvidia-settings --load-config-only &
 xset m 0 0 &
 xinput --set-prop 8 "libinput Accel Speed" -0.7 &
