@@ -3,6 +3,7 @@ local cmp = require("cmp")
 cmp.setup {
    -- As currently, i am not using any snippet manager, thus disabled it.
       snippet = {
+
            expand = function(args)
                 require("luasnip").lsp_expand(args.body)
               end,
@@ -12,7 +13,7 @@ cmp.setup {
          ["<C-d>"] = cmp.mapping.scroll_docs(-4),
          ["<C-f>"] = cmp.mapping.scroll_docs(4),
          ["<C-e>"] = cmp.mapping.close(),
-         ["<c-y>"] = cmp.mapping.confirm {
+         ["<C-z>"] = cmp.mapping.confirm {
             behavior = cmp.ConfirmBehavior.Insert,
             select = true,
          },

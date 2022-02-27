@@ -19,6 +19,8 @@ opt.expandtab = true
 g.mapleader = ' '
 g.title = true
 
+vim.cmd [[set mouse=a]]
+
 local disabled_built_ins = {
   "2html_plugin",
   "getscript",

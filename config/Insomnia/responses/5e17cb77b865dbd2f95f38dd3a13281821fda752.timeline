@@ -1,0 +1,262 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://api.webuntis.com/",
+		"timestamp": 1644870962099
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2022-02-14T20:36:02.099Z",
+		"timestamp": 1644870962099
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.73.0 OpenSSL/1.1.1i zlib/1.2.11 brotli/1.0.9 zstd/1.5.2 libidn2/2.3.2 libssh2/1.9.0 nghttp2/1.42.0",
+		"timestamp": 1644870962099
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1644870962099
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1644870962099
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1644870962099
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1644870962099
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 2 cookies",
+		"timestamp": 1644870962100
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 213.208.138.154:443...\n",
+		"timestamp": 1644870962105
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to api.webuntis.com (213.208.138.154) port 443 (#1)\n",
+		"timestamp": 1644870962147
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering h2\n",
+		"timestamp": 1644870962147
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1644870962147
+	},
+	{
+		"name": "TEXT",
+		"value": "successfully set certificate verify locations:\n",
+		"timestamp": 1644870962151
+	},
+	{
+		"name": "TEXT",
+		"value": " CAfile: /tmp/insomnia_2021.7.2/ca-certs.pem\n",
+		"timestamp": 1644870962151
+	},
+	{
+		"name": "TEXT",
+		"value": " CApath: none\n",
+		"timestamp": 1644870962151
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS handshake, Client hello (1):\n",
+		"timestamp": 1644870962151
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Server hello (2):\n",
+		"timestamp": 1644870962203
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Certificate (11):\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, CERT verify (15):\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Finished (20):\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS handshake, Finished (20):\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": "SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, server accepted to use http/1.1\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate:\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": " subject: CN=webuntis.com\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": " start date: Jan 17 10:37:50 2022 GMT\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": " expire date: Apr 17 10:37:49 2022 GMT\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": " subjectAltName: host \"api.webuntis.com\" matched cert's \"*.webuntis.com\"\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": " issuer: C=US; O=Let's Encrypt; CN=R3\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": " SSL certificate verify ok.\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET / HTTP/1.1\r\nHost: api.webuntis.com\r\nUser-Agent: insomnia/2021.7.2\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1644870962204
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n",
+		"timestamp": 1644870962245
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "TEXT",
+		"value": "old SSL session ID is stale, removing\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 401 \r\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Server: nginx\r\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Mon, 14 Feb 2022 20:36:02 GMT\r\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json;charset=UTF-8\r\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Transfer-Encoding: chunked\r\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Content-Type-Options: nosniff\r\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-XSS-Protection: 1; mode=block\r\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Cache-Control: no-cache, no-store, max-age=0, must-revalidate\r\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Pragma: no-cache\r\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Expires: 0\r\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 239 B chunk",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 5 B chunk",
+		"timestamp": 1644870962285
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #1 to host api.webuntis.com left intact\n",
+		"timestamp": 1644870962285
+	}
+]

@@ -1,0 +1,1 @@
+[{"errorCode":401,"codeMajor":"failure","severity":"error","codeMinor":"unauthorized","description":"Missing Bearer Token. It has to be provided either with the HTTP request-header \"Authorization\" or query-param \"access_token\""}]
