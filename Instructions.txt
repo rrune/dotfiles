@@ -6,8 +6,9 @@ sxhkd
 polybar
 picom-ibhagwan-git
 rofi
+alttab
 kitty
 feh
 xorg-xsetroot
 siji-git
-
+rofi-greenclip

@@ -29,3 +29,6 @@ disabled = true
 
 [jobs]
 disabled = true
+
+[localip]                          
+disabled = true

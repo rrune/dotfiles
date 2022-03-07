@@ -34,8 +34,8 @@ super + {_,shift + } space
 
 
 # alt + Tab
-alt + Tab
-	rofi -show window -kb-accept-entry "!Alt-Tab,!Alt+Alt_L" -kb-row-down "Alt+Tab" -selected-row 1
+#alt + Tab
+#	rofi -show window -kb-accept-entry "!Alt-Tab,!Alt+Alt_L" -kb-row-down "Alt+Tab" -selected-row 1
 
 # browser
 super + a
@@ -44,6 +44,10 @@ super + a
 # flameshot
 super + shift + s
         flameshot gui
+
+# clipboard manager
+super + v
+        rofi -modi "paste:~/.config/rofi/paste-modi.sh" -show paste
 
 # make sxhkd reload its configuration files:
 super + Escape

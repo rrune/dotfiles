@@ -1,8 +1,16 @@
-[2022-02-07 22:20:55.523] [info]  [db] Initialized DB client
-[2022-02-07 22:20:55.709] [info]  [plugin] Loaded /home/rune/.config/Insomnia/plugins/substrata-theme
-[2022-02-07 22:20:56.395] [info]  [FileSystemDriver] Initialized in "/home/rune/.config/Insomnia/version-control"
-[2022-02-07 22:20:56.398] [info]  [FileSystemDriver] Initialized in "/home/rune/.config/Insomnia/version-control"
-[2022-02-07 22:20:56.398] [info]  [sync] checking for collections which need to be moved into a remote project
-[2022-02-07 22:20:56.425] [info]  [ga] Event Activity, Change, debug
-[2022-02-07 22:20:56.425] [info]  [ga] Page /debug
-[2022-02-07 22:21:02.723] [info]  [ga] Event Modals, Show, SettingsModal
+[2022-02-14 21:35:34.897] [info]  [db] Initialized DB client
+[2022-02-14 21:35:35.092] [info]  [plugin] Loaded /home/rune/.config/Insomnia/plugins/substrata-theme
+[2022-02-14 21:35:35.710] [info]  [FileSystemDriver] Initialized in "/home/rune/.config/Insomnia/version-control"
+[2022-02-14 21:35:35.711] [info]  [FileSystemDriver] Initialized in "/home/rune/.config/Insomnia/version-control"
+[2022-02-14 21:35:35.711] [info]  [sync] checking for collections which need to be moved into a remote project
+[2022-02-14 21:35:35.740] [info]  [ga] Event Activity, Change, debug
+[2022-02-14 21:35:35.740] [info]  [ga] Page /debug
+[2022-02-14 21:35:46.497] [info]  [ga] Event Modals, Show, RequestCreateModal
+[2022-02-14 21:35:52.287] [info]  [ga] Event Request, Create
+[2022-02-14 21:35:55.089] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-02-14 21:35:55.157] [info]  [net] Set CA to /tmp/insomnia_2021.7.2/ca-certs.pem
+[2022-02-14 21:35:55.355] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-02-14 21:36:02.082] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-02-14 21:36:02.287] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=401
+[2022-02-14 21:36:14.395] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-02-14 21:36:14.857] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=401

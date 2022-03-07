@@ -1,6 +1,8 @@
-[2022-02-06 19:35:36.242] [info]  [db] Initialized DB client
-[2022-02-06 19:35:37.089] [info]  [FileSystemDriver] Initialized in "/home/rune/.config/Insomnia/version-control"
-[2022-02-06 19:35:37.090] [info]  [FileSystemDriver] Initialized in "/home/rune/.config/Insomnia/version-control"
-[2022-02-06 19:35:37.091] [info]  [sync] checking for collections which need to be moved into a remote project
-[2022-02-06 19:35:37.116] [info]  [ga] Event Activity, Change, debug
-[2022-02-06 19:35:37.116] [info]  [ga] Page /debug
+[2022-02-07 22:20:55.523] [info]  [db] Initialized DB client
+[2022-02-07 22:20:55.709] [info]  [plugin] Loaded /home/rune/.config/Insomnia/plugins/substrata-theme
+[2022-02-07 22:20:56.395] [info]  [FileSystemDriver] Initialized in "/home/rune/.config/Insomnia/version-control"
+[2022-02-07 22:20:56.398] [info]  [FileSystemDriver] Initialized in "/home/rune/.config/Insomnia/version-control"
+[2022-02-07 22:20:56.398] [info]  [sync] checking for collections which need to be moved into a remote project
+[2022-02-07 22:20:56.425] [info]  [ga] Event Activity, Change, debug
+[2022-02-07 22:20:56.425] [info]  [ga] Page /debug
+[2022-02-07 22:21:02.723] [info]  [ga] Event Modals, Show, SettingsModal

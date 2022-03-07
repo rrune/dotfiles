@@ -22,39 +22,39 @@ ln -sf ${SCRIPT_DIR}/bashrc ~/.bashrc
 echo "-> Linking gitconfig"
 ln -sf ${SCRIPT_DIR}/gitconfig ~/.gitconfig
 
-#echo "-> Copying ~/.config/nvim"
-#cp -R ${SCRIPT_DIR}/config/nvim ~/.config/
+echo "-> Copying ~/.config/nvim"
+ln -sf ${SCRIPT_DIR}/config/nvim ~/.config/
 
 read -p "-> install bspwm configuration? [Y/n] " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "-> Copying ~/.config/bspwm"
-    cp -R ${SCRIPT_DIR}/config/bspwm ~/.config/
+    ln -sf ${SCRIPT_DIR}/config/bspwm ~/.config/
 
     echo "-> Copying ~/.config/sxhkd"
-    cp -R ${SCRIPT_DIR}/config/sxhkd ~/.config/
+    ln -sf ${SCRIPT_DIR}/config/sxhkd ~/.config/
 
     echo "-> Copying ~/.config/polybar"
-    cp -R ${SCRIPT_DIR}/config/polybar ~/.config/
+    ln -sf ${SCRIPT_DIR}/config/polybar ~/.config/
 
     echo "-> Copying ~/.config/picom"
-    cp -R ${SCRIPT_DIR}/config/picom ~/.config/
+    ln -sf ${SCRIPT_DIR}/config/picom ~/.config/
 
     echo "-> Copying ~/.config/rofi"
-    cp -R ${SCRIPT_DIR}/config/rofi ~/.config/
+    ln -sf ${SCRIPT_DIR}/config/rofi ~/.config/
 
     echo "-> Copying ~/.config/dunst"
-    cp -R ${SCRIPT_DIR}/config/dunst ~/.config/
+    ln -sf ${SCRIPT_DIR}/config/dunst ~/.config/
 
     echo "-> Copying ~/.config/kitty"
-    cp -R ${SCRIPT_DIR}/config/kitty ~/.config/
+    ln -sf ${SCRIPT_DIR}/config/kitty ~/.config/
 
     echo "-> Copying ~/.config/Insomnia"
-    cp -R ${SCRIPT_DIR}/config/Insomnia ~/.config/
+    ln -sf ${SCRIPT_DIR}/config/Insomnia ~/.config/
 
 
     echo "-> Copying ~/.config/gtk-3.0/"
-    cp -R ${SCRIPT_DIR}/config/gtk-3.0 ~/.config/
+    ln -sf ${SCRIPT_DIR}/config/gtk-3.0 ~/.config/
 fi
 
 echo "-> Creating ~/.local/share/fonts"

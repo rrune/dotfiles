@@ -233,6 +233,9 @@ alias getIP="curl ifconfig.me"
 #spotify
 #alias spt="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
 
+#vscodium
+alias code="codium"
+
 #gopath to path
 export PATH=~/go/bin:$PATH
 
