@@ -18,7 +18,7 @@ font-0 = "SometypeMono-Bold:pixelsize=10;2:antialias=false"
 font-1 = "Siji:size=12;2:antialias=false"
 
 modules-left = date
-modules-right = cpu memory temperature pulseaudio network
+modules-right = cpu memory temperature volume network
 modules-center = bspwm
 module-margin = 2
 
@@ -66,9 +66,8 @@ label =  %gb_used%
 
 ;------------------
 
-[module/pulseaudio]
-type = internal/pulseaudio
-sink = alsa_output.pci-0000_00_1b.0.analog-stereo
+[module/volume]
+type = internal/volume
 format = <label-volume>
 label-volume =  %percentage%%
 label-muted =
