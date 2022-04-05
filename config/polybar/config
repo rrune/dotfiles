@@ -18,11 +18,7 @@ font-0 = "SometypeMono-Bold:pixelsize=10;2:antialias=false"
 font-1 = "Siji:size=12;2:antialias=false"
 
 modules-left = date
-<<<<<<< HEAD
 modules-right = cpu memory temperature volume battery brightnessctl network
-=======
-modules-right = cpu memory temperature volume network
->>>>>>> main
 modules-center = bspwm
 module-margin = 2
 
