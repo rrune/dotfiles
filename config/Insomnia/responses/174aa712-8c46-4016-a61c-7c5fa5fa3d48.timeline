@@ -1,0 +1,422 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://hepta.webuntis.com/WebUntis/jsonrpc.do?school=Mariengymnasium%20Jever",
+		"timestamp": 1649529198050
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2022-04-09T18:33:18.050Z",
+		"timestamp": 1649529198050
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1649529198050
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1649529198050
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1649529198050
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1649529198050
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 5 cookies",
+		"timestamp": 1649529198051
+	},
+	{
+		"name": "TEXT",
+		"value": "Saved 2 cookies",
+		"timestamp": 1649529201838
+	},
+	{
+		"name": "TEXT",
+		"value": "STATE: INIT => CONNECT handle 0x284402b0a008; line 1789 (connection #-5000)\n",
+		"timestamp": 1649529198052
+	},
+	{
+		"name": "TEXT",
+		"value": "Too old connection (198 seconds), disconnect it\n",
+		"timestamp": 1649529198052
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 7 seems to be dead!\n",
+		"timestamp": 1649529198052
+	},
+	{
+		"name": "TEXT",
+		"value": "The cache now contains 0 members\n",
+		"timestamp": 1649529198052
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 7\n",
+		"timestamp": 1649529198052
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS alert, close notify (256):\n",
+		"timestamp": 1649529198052
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS alert, close notify (256):\n",
+		"timestamp": 1649529198052
+	},
+	{
+		"name": "TEXT",
+		"value": "Added connection 8. The cache now contains 1 members\n",
+		"timestamp": 1649529198053
+	},
+	{
+		"name": "TEXT",
+		"value": "Hostname in DNS cache was stale, zapped\n",
+		"timestamp": 1649529198053
+	},
+	{
+		"name": "TEXT",
+		"value": "STATE: CONNECT => RESOLVING handle 0x284402b0a008; line 1835 (connection #8)\n",
+		"timestamp": 1649529198053
+	},
+	{
+		"name": "TEXT",
+		"value": "family0 == v4, family1 == v6\n",
+		"timestamp": 1649529198056
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 213.208.138.157:443...\n",
+		"timestamp": 1649529198056
+	},
+	{
+		"name": "TEXT",
+		"value": "STATE: RESOLVING => CONNECTING handle 0x284402b0a008; line 1917 (connection #8)\n",
+		"timestamp": 1649529198056
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to hepta.webuntis.com (213.208.138.157) port 443 (#8)\n",
+		"timestamp": 1649529199137
+	},
+	{
+		"name": "TEXT",
+		"value": "STATE: CONNECTING => PROTOCONNECT handle 0x284402b0a008; line 1982 (connection #8)\n",
+		"timestamp": 1649529199137
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering h2\n",
+		"timestamp": 1649529199137
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1649529199137
+	},
+	{
+		"name": "TEXT",
+		"value": "successfully set certificate verify locations:\n",
+		"timestamp": 1649529199142
+	},
+	{
+		"name": "TEXT",
+		"value": " CAfile: /tmp/insomnia_2022.2.1/ca-certs.pem\n",
+		"timestamp": 1649529199142
+	},
+	{
+		"name": "TEXT",
+		"value": " CApath: none\n",
+		"timestamp": 1649529199142
+	},
+	{
+		"name": "TEXT",
+		"value": "Didn't find Session ID in cache for host HTTPS://hepta.webuntis.com:443\n",
+		"timestamp": 1649529199142
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS handshake, Client hello (1):\n",
+		"timestamp": 1649529199142
+	},
+	{
+		"name": "TEXT",
+		"value": "STATE: PROTOCONNECT => PROTOCONNECTING handle 0x284402b0a008; line 2000 (connection #8)\n",
+		"timestamp": 1649529199142
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Server hello (2):\n",
+		"timestamp": 1649529199210
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):\n",
+		"timestamp": 1649529199210
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Certificate (11):\n",
+		"timestamp": 1649529199558
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, CERT verify (15):\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Finished (20):\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS handshake, Finished (20):\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": "SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, server accepted to use http/1.1\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate:\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": " subject: CN=webuntis.com\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": " start date: Mar 18 23:02:44 2022 GMT\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": " expire date: Jun 16 23:02:43 2022 GMT\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": " subjectAltName: host \"hepta.webuntis.com\" matched cert's \"*.webuntis.com\"\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": " issuer: C=US; O=Let's Encrypt; CN=R3\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": " SSL certificate verify ok.\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": "STATE: PROTOCONNECTING => DO handle 0x284402b0a008; line 2019 (connection #8)\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /WebUntis/jsonrpc.do?school=Mariengymnasium%20Jever HTTP/1.1\r\nHost: hepta.webuntis.com\r\nUser-Agent: insomnia/2022.2.1\r\nCookie: schoolname=\"_bWFyaWVuZ3ltbmFzaXVtIGpldmVy\"; JSESSIONID=B7A2CA154106B7E59B5C6827A63E9692; traceId=0dbe56bfe04f4ff9a82177e282fc120a6a21e5b8\r\nContent-Type: application/json\r\nAuthorization: Bearer JIS3GD77GAM7RJI6\r\nAccept: */*\r\nContent-Length: 148\r\n\r\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "DATA_OUT",
+		"value": "{\"id\":\"zWxc8Ti6u2pVfNffqL7S\",\"method\":\"authenticate\",\"params\":{\"user\":\"Rune.Evers\",\n\"password\":\"(AWWf7euzY$s\", \"client\":\"Insomnia\"},\"jsonrpc\":\"2.0\"}",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": "STATE: DO => DID handle 0x284402b0a008; line 2077 (connection #8)\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": "STATE: DID => PERFORMING handle 0x284402b0a008; line 2196 (connection #8)\n",
+		"timestamp": 1649529199559
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n",
+		"timestamp": 1649529199613
+	},
+	{
+		"name": "TEXT",
+		"value": "Didn't find Session ID in cache for host HTTPS://hepta.webuntis.com:443\n",
+		"timestamp": 1649529199613
+	},
+	{
+		"name": "TEXT",
+		"value": "Added Session ID to cache for HTTPS://hepta.webuntis.com:443 [server]\n",
+		"timestamp": 1649529199613
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "TEXT",
+		"value": "Found Session ID in cache for host HTTPS://hepta.webuntis.com:443\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "TEXT",
+		"value": "old SSL session ID is stale, removing\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "TEXT",
+		"value": "Added Session ID to cache for HTTPS://hepta.webuntis.com:443 [server]\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "TEXT",
+		"value": "HTTP 1.1 or later with persistent connection\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 200\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Server: nginx\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Sat, 09 Apr 2022 18:33:19 GMT\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json-rpc;charset=UTF-8\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Length: 149\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "requestId: 658b19749c7eebd427401321f1c19a0d\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "TEXT",
+		"value": "Replaced cookie JSESSIONID=\"DD7F63D6E23E8E911474B21CB69D42F6\" for domain hepta.webuntis.com, path /WebUntis, expire 0\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Set-Cookie: JSESSIONID=DD7F63D6E23E8E911474B21CB69D42F6; Path=/WebUntis; HttpOnly; Secure; SameSite=None\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "TEXT",
+		"value": "Replaced cookie schoolname=\"\"_bWFyaWVuZ3ltbmFzaXVtIGpldmVy\"\" for domain hepta.webuntis.com, path /WebUntis/, expire 1650738799\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Set-Cookie: schoolname=\"_bWFyaWVuZ3ltbmFzaXVtIGpldmVy\"; Expires=Sat, 23-Apr-2022 18:33:19 GMT; Secure; SameSite=None\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Pragma: no-cache\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-XSS-Protection: 1; mode=block\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Content-Type-Options: nosniff\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Access-Control-Allow-Headers: Accept, Origin, X-Requested-With, Content-Type, Last-Modified\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Access-Control-Allow-Origin: *\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 149 B chunk",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "TEXT",
+		"value": "STATE: PERFORMING => DONE handle 0x284402b0a008; line 2395 (connection #8)\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "TEXT",
+		"value": "multi_done\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #8 to host hepta.webuntis.com left intact\n",
+		"timestamp": 1649529201836
+	},
+	{
+		"name": "TEXT",
+		"value": "Expire cleared (transfer 0x284402b0a008)\n",
+		"timestamp": 1649529201836
+	}
+]

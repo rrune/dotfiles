@@ -1,8 +1,99 @@
-[2022-02-07 22:20:55.523] [info]  [db] Initialized DB client
-[2022-02-07 22:20:55.709] [info]  [plugin] Loaded /home/rune/.config/Insomnia/plugins/substrata-theme
-[2022-02-07 22:20:56.395] [info]  [FileSystemDriver] Initialized in "/home/rune/.config/Insomnia/version-control"
-[2022-02-07 22:20:56.398] [info]  [FileSystemDriver] Initialized in "/home/rune/.config/Insomnia/version-control"
-[2022-02-07 22:20:56.398] [info]  [sync] checking for collections which need to be moved into a remote project
-[2022-02-07 22:20:56.425] [info]  [ga] Event Activity, Change, debug
-[2022-02-07 22:20:56.425] [info]  [ga] Page /debug
-[2022-02-07 22:21:02.723] [info]  [ga] Event Modals, Show, SettingsModal
+[2022-04-09 17:11:21.242] [info]  [db] Initialized DB client
+[2022-04-09 17:11:21.307] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2022-04-09 17:11:21.317] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2022-04-09 17:11:21.576] [info]  [plugin] Loaded /home/rune/.config/Insomnia/plugins/substrata-theme
+[2022-04-09 17:11:22.043] [info]  [FileSystemDriver] Initialized in "/home/rune/.config/Insomnia/version-control"
+[2022-04-09 17:11:22.044] [info]  [FileSystemDriver] Initialized in "/home/rune/.config/Insomnia/version-control"
+[2022-04-09 17:11:22.044] [info]  [sync] checking for collections which need to be moved into a remote project
+[2022-04-09 17:11:27.568] [info]  [toast] Received notification updated-2022.2.1
+[2022-04-09 17:11:37.931] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:11:37.971] [info]  [net] Set CA to /tmp/insomnia_2022.2.1/ca-certs.pem
+[2022-04-09 17:11:38.522] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:12:26.426] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:12:26.829] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:12:42.101] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:12:42.608] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:12:47.321] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:12:47.714] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:13:00.004] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:13:00.687] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:13:16.568] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:13:16.806] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:13:30.765] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:13:30.999] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:13:49.192] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:13:50.172] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:13:57.637] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:13:57.814] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:14:06.476] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:14:06.855] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:14:14.883] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:14:14.980] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:14:44.309] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:14:44.610] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:16:52.145] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:16:53.820] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:18:21.407] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:18:21.667] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:23:29.621] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:23:29.902] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:23:41.100] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:23:41.568] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:23:51.595] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:23:51.859] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:23:54.908] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:23:55.042] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:25:29.535] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:25:29.779] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:26:54.137] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:26:54.429] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:27:13.252] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:27:13.504] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:27:19.366] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:27:19.444] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:28:15.803] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:28:16.049] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:28:18.019] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:28:18.150] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:28:30.642] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:28:31.214] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:28:52.133] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:28:52.757] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:29:17.264] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:29:17.981] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:29:25.047] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:29:25.543] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:29:30.769] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:29:31.216] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:29:50.862] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:29:51.529] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:30:01.746] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:30:02.335] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:30:29.763] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:30:33.525] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:30:39.242] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:30:42.416] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:30:57.870] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:30:58.466] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:31:54.521] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:31:55.235] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:33:39.598] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:33:39.836] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:37:13.456] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:37:13.703] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:43:37.097] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:43:37.417] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:43:43.354] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:43:43.582] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:43:46.167] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 17:43:46.280] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 17:43:47.773] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:43:47.882] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 17:44:27.833] [info]  [network] Sending req=req_b870f40d3b8d4d8cb1f7069f2e404834 env=n/a
+[2022-04-09 17:44:28.092] [info]  [network] Response succeeded req=req_b870f40d3b8d4d8cb1f7069f2e404834 status=200
+[2022-04-09 17:44:30.631] [info]  [network] Sending req=req_2dc0465ce00f4be3b4070ebb789fd4b8 env=n/a
+[2022-04-09 17:44:30.716] [info]  [network] Response succeeded req=req_2dc0465ce00f4be3b4070ebb789fd4b8 status=200
+[2022-04-09 18:09:07.484] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 18:09:07.844] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
+[2022-04-09 18:09:29.476] [info]  [network] Sending req=req_04d6d08a72b5452fbe6c5feea65ca111 env=n/a
+[2022-04-09 18:09:29.722] [info]  [network] Response succeeded req=req_04d6d08a72b5452fbe6c5feea65ca111 status=200
