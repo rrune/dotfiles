@@ -1,1 +1,0 @@
-{"jsonrpc":"2.0","id":null,"error":{"code":-32700,"message":"Parse error: No content to map due to end-of-input\n at [Source: (com.grupet.web.filter.XSSProtectionFilter$MultiReadHttpServletRequest$CachedServletInputStream); line: 1, column: 0]"}}
