@@ -39,7 +39,7 @@ super + {_,shift + } space
 
 # browser
 super + a
-	firefox	
+  env MOZ_USE_XINPUT2=1 firefox	
 
 # flameshot
 super + shift + s
