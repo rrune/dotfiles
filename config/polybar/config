@@ -18,7 +18,7 @@ font-0 = "SometypeMono-Bold:pixelsize=10;2:antialias=false"
 font-1 = "Siji:size=12;2:antialias=false"
 
 modules-left = date
-modules-right = cpu memory temperature volume network
+modules-right = cpu memory temperature volume vpn network
 modules-center = bspwm
 module-margin = 2
 
@@ -72,6 +72,12 @@ format = <label-volume>
 label-volume =  %percentage%%
 label-muted =
 click-right = pavucontrol & pulseaudio --check & pulseaudio -D
+
+;------------------
+
+[module/vpn]
+type = custom/script
+exec = ~/.config/polybar/vpn.sh
 
 ;------------------
 

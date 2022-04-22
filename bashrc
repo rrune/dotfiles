@@ -213,6 +213,10 @@ alias dup="docker-compose up -d"
 alias dop="docker-compose stop"
 alias dwn="docker-compose down"
 
+#vpn
+alias vup="sudo wg-quick up rune"
+alias vop="sudo wg-quick down rune"
+
 #default editor
 export VISUAL="nvim"
 

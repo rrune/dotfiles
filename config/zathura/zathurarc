@@ -25,7 +25,7 @@ set notification-error-fg "#B5B4C9"
 set notification-warning-bg "#1c1c1c"
 set notification-warning-fg "#B5B4C9"
 set statusbar-basename true
-set font "JetBrainsMono 11"
+set font "SometypeMonoNerdFontCompleteM-Regular 11"
 set selection-clipboard clipboard
 set window-height 900
 set window-width 1400
