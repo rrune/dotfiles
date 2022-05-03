@@ -12,3 +12,4 @@ feh
 xorg-xsetroot
 siji-git
 rofi-greenclip
+lxsession

@@ -17,3 +17,4 @@ Scripts:
 
 Other stuff:
 - [Starship prompt](https://starship.rs/)
+- [VSCode Config](https://github.com/Haruno19/Haruno19/blob/main/configs/MacOS/Minimal%20Green/settings.json)

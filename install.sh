@@ -52,6 +52,12 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "-> Copying ~/.config/zathura"
     ln -sf ${SCRIPT_DIR}/config/zathura ~/.config
 
+    echo "-> Copying ~/.config/VSCodium"
+    cp -r ${SCRIPT_DIR}/config/VSCodium ~/.config
+
+    echo "-> Copying ~/.config/Insomnia/"
+    cp -r ${SCRIPT_DIR}/config/Insomnia ~/.config/Insomnia
+
     echo "-> Copying ~/.config/gtk-3.0/"
     ln -sf ${SCRIPT_DIR}/config/gtk-3.0 ~/.config/
 fi
