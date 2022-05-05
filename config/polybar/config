@@ -18,7 +18,7 @@ font-0 = "SometypeMono-Bold:pixelsize=10;2:antialias=false"
 font-1 = "Siji:size=12;2:antialias=false"
 
 modules-left = date
-modules-right = cpu memory temperature volume battery brightnessctl network
+modules-right = cpu memory temperature volume battery brightnessctl vpn network
 modules-center = bspwm
 module-margin = 2
 
@@ -106,6 +106,12 @@ scroll-down = exec brightnessctl set 5%-
 interval = 0.5
 
 label = %output%
+
+;------------------
+
+[module/vpn]
+type = custom/script
+exec = ~/.config/polybar/vpn.sh
 
 ;------------------
 

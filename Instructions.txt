@@ -13,3 +13,4 @@ xorg-xsetroot
 siji-git
 rofi-greenclip
 lxsession
+net-tools
