@@ -1,0 +1,70 @@
+{
+  "window.restoreWindows": "all",
+  "files.hotExit": "onExit",
+  "workbench.startupEditor": "none",
+  "extensions.ignoreRecommendations": true,
+  "editor.suggestSelection": "first",
+  "editor.fontSize": 13,
+  "editor.fontFamily": "SometypeMonoNerdFontCompleteM-Regular, 'Courier New', monospace",
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.colorCustomizations": {
+    "list.activeSelectionBackground": "#1c1c1c",
+    "list.hoverBackground": "#1c1c1c",
+    "editorWidget.background": "#1c1c1c",
+    "panel.background": "#1c1c1c",
+    "titleBar.activeBackground": "#1c1c1c",
+    "breadcrumbPicker.background": "#1c1c1c",
+    "settings.dropdownBackground": "#1c1c1c",
+    "settings.numberInputBackground": "#1c1c1c",
+    "settings.textInputBackground": "#1c1c1c",
+    "settings.checkboxBackground": "#1c1c1c",
+    "editor.background": "#1c1c1c",
+    "tab.activeBackground": "#1c1c1c",
+    "tab.inactiveBackground": "#1c1c1c",
+    "sideBar.background": "#1c1c1c",
+    "sideBarSectionHeader.background": "#1c1c1c",
+    "activityBar.background": "#1c1c1c",
+    "statusBar.background": "#1c1c1c",
+    "scrollbarSlider.activeBackground": "#1c1c1c",
+    "tab.activeBorder": "#1c1c1c00",
+    "editorGroupHeader.tabsBackground": "#1c1c1c",
+    "statusBar.noFolderBackground": "#1c1c1c",
+    "tab.border": "#1c1c1c",
+    "editorHoverWidget.background": "#1c1c1c",
+    "menu.background": "#1c1c1c",
+    "debugToolBar.background": "#1c1c1c",
+    "editorBracketMatch.background": "#1c1c1c",
+    "quickInput.background": "#1c1c1c",
+    "editorOverviewRuler.border": "#1c1c1c",
+    "notifications.background": "#1c1c1c",
+    "breadcrumb.background": "#1c1c1c"
+  },
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "customizeUI.activityBar": "bottom",
+  "customizeUI.fontSizeMap": {
+    "13px": "12px",
+    "monospace": "13px"
+  },
+  "customizeUI.stylesheet": {
+    ".tabs-container ": "padding-top:7px; padding-left:2px; padding-bottom:5px",
+    ".tabs-container > .tab": "border-radius: 7px 7px 7px 7px; height: 20px; margin-left: 5px; padding-right:4px",
+    ".monaco-editor .suggest-widget": "border-radius: 10px 10px 10px 10px; overflow:hidden;"
+  },
+  "window.titleBarStyle": "native",
+  "editor.minimap.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
