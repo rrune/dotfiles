@@ -217,6 +217,9 @@ alias dwn="docker-compose down"
 alias vup="sudo wg-quick up rune"
 alias vop="sudo wg-quick down rune"
 
+alias sup="sudo wg-quick up surfshark"
+alias sop="sudo wg-quick down surfshark"
+
 #default editor
 export VISUAL="nvim"
 
