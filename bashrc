@@ -207,6 +207,9 @@ remindelte() {
   curl -X DELETE -H "Authorization: Bearer ${2}" -d "$1" https://api.qnd.be
 }
 
+#env
+export LPDEST="Kyocera_FS-1370DN"
+
 #docker
 alias dups="docker-compose up"
 alias dup="docker-compose up -d"
