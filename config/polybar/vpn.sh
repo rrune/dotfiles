@@ -8,7 +8,7 @@ if [ "$rune" != "" ]; then
 fi
 
 if [ "$mullvad" != "" ]; then
-  echo " surfshark"
+  echo " mullvad"
 fi
 
 if [ "$generic" != "" ]; then
