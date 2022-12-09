@@ -1,13 +1,13 @@
 #!/bin/bash
 rune=$(ifconfig | grep "rune")
-surfshark=$(ifconfig | grep "surfshark")
+mullvad=$(ifconfig | grep "mullvad")
 generic=$(ifconfig | grep "tun0")
 
 if [ "$rune" != "" ]; then
   echo " rune"
 fi
 
-if [ "$surfshark" != "" ]; then
+if [ "$mullvad" != "" ]; then
   echo " surfshark"
 fi
 
