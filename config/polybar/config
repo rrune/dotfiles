@@ -7,8 +7,8 @@ wm-restack = bspwm
 bottom = false
 fixed-center = true
 height = 24
-width = 100%:-32
-offset-x = 16
+width = 100%:-12
+offset-x = 6
 padding = 3
 radius = 8.0
 
