@@ -19,6 +19,9 @@ fi
 echo "-> Linking bashrc"
 ln -sf ${SCRIPT_DIR}/bashrc ~/.bashrc
 
+echo "-> Linking xinitrc"
+ln -sf ${SCRIPT_DIR}/xinitrc ~/.xinitrc
+
 echo "-> Linking gitconfig"
 ln -sf ${SCRIPT_DIR}/gitconfig ~/.gitconfig
 

@@ -240,11 +240,13 @@ alias svrsftp="sftp -P 69 -i ~/.ssh/id_rsa rune@qnd.be"
 #get ip
 alias getIP="curl ifconfig.me"
 
-#spotify
-#alias spt="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
-
 #vscodium
 alias code="codium"
+
+#ls and cd
+cdl() {
+  cd $1 && exa
+}
 
 #gopath to path
 export PATH=~/go/bin:$PATH
