@@ -110,7 +110,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
         mv ~/stuff/scripts/bin/ext.sh ~/stuff/scripts/bin/ext >/dev/null 2>&1
 
         echo "-> Installing calc"
-        curl -o ~/stuff/scripts/bin/calc.sh https://raw.githubusercontent.com/Manas140/sh/f89ef95fc36c0fa1da67f266860c72a394d885ed/src/calc >/dev/null 2>&1
+        curl -o ~/stuff/scripts/bin/calc.sh https://raw.githubusercontent.com/Manas140/sh/4055ecfa68e604a62a3c09ccc4f064aa908e780f/src/calc >/dev/null 2>&1
         mv ~/stuff/scripts/bin/calc.sh ~/stuff/scripts/bin/calc >/dev/null 2>&1
 
         echo "-> Installing scripts from local folder"
