@@ -35,7 +35,6 @@ qndelete() {
 
 #env
 export LPDEST="Kyocera_FS-1370DN" # Printer
-export DEVICE="PC"
 
 #docker
 alias dups="docker-compose up"

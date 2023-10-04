@@ -35,14 +35,15 @@ read -p "-> install bspwm configuration? [Y/n] " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "-> Copying ~/.config/bspwm"
+    echo "export DEVICE='${DEVICE}'" > ${SCRIPT_DIR}/config/bspwm/.env
     ln -sf ${SCRIPT_DIR}/config/bspwm ~/.config/
 
     echo "-> Copying ~/.config/sxhkd"
     ln -sf ${SCRIPT_DIR}/config/sxhkd ~/.config/
 
     echo "-> Copying ~/.config/polybar"
-    ln -sf ${SCRIPT_DIR}/config/polybar ~/.config/
     cp -r ${SCRIPT_DIR}/config/polybar/custom_${DEVICE} ${SCRIPT_DIR}/config/polybar/custom
+    ln -sf ${SCRIPT_DIR}/config/polybar ~/.config/
 
     echo "-> Copying ~/.config/picom"
     ln -sf ${SCRIPT_DIR}/config/picom ~/.config/

@@ -1,4 +1,8 @@
-#! /bin/bash
+#!/bin/bash
+set -a
+source ~/.config/bspwm/.env
+set +a
+
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 [[ "${DEVICE}" = "PC" ]] && xrandr --output HDMI-0 --primary --mode 1920x1080 --rate 75.00 --output DVI-D-0 --mode 1280x1024 --rate 75.00 --right-of HDMI-0 --output DP-1 --mode 1280x1024 --rate 75.00 --left-of HDMI-0 &
