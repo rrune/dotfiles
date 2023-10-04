@@ -1,0 +1,17 @@
+[bar/bar-main]
+monitor = HDMI-0
+modules-right = cpu memory temperature volume vpn network
+
+;------------------
+
+[bar/bar-right]
+
+inherit = bar/bar-main
+monitor = DVI-D-0
+
+;------------------
+
+[bar/bar-left]
+
+inherit = bar/bar-main
+monitor = DP-1

@@ -1,5 +1,8 @@
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 
+read -p "-> Device name ('PC' or 'LT'): " -r
+DEVICE=$REPLY
+
 read -p "-> This will replace some stuff. You sure? [Y/n] " -n 1 -r
 echo
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
@@ -39,6 +42,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 
     echo "-> Copying ~/.config/polybar"
     ln -sf ${SCRIPT_DIR}/config/polybar ~/.config/
+    cp -r ${SCRIPT_DIR}/config/polybar/custom_${DEVICE} ${SCRIPT_DIR}/config/polybar/custom
 
     echo "-> Copying ~/.config/picom"
     ln -sf ${SCRIPT_DIR}/config/picom ~/.config/

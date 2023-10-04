@@ -8,7 +8,7 @@ killall -q polybar
 # Launch bars
 echo "---" | tee -a /tmp/bar-main.log /tmp/bar-left.log /tmp/bar-right.log
 polybar bar-main 2>&1 | tee -a /tmp/bar-main.log & disown
-polybar bar-left 2>&1 | tee -a /tmp/bar-left.log & disown
-polybar bar-right 2>&1 | tee -a /tmp/bar-right.log &disown
+[[ "${DEVICE}" = "PC" ]] && polybar bar-left 2>&1 | tee -a /tmp/bar-left.log & disown
+[[ "${DEVICE}" = "PC" ]] && polybar bar-right 2>&1 | tee -a /tmp/bar-right.log &disown
 
 echo "Bars launched..."

@@ -1,0 +1,37 @@
+[bar/bar-main]
+monitor = eDP1
+modules-right = cpu memory temperature volume battery brightnessctl vpn network
+
+;------------------
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ADP1
+
+time-format = %H:%M
+
+label-charging = %percentage%%
+label-discharging = %percentage%%
+
+format-discharging = <ramp-capacity> <label-discharging>
+format-charging = <label-charging>
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+;------------------
+
+[module/brightnessctl]
+type = custom/script
+exec = ~/.config/polybar/brightnessctl.sh
+
+scroll-up = exec brightnessctl set +5%
+scroll-down = exec brightnessctl set 5%-
+interval = 0.5
+
+label = %output%
+
