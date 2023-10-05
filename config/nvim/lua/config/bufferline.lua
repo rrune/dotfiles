@@ -1,10 +1,10 @@
-vim.g.bufferline = {
+require('barbar').setup{
   animation = false,
   auto_hide = true,
   tabpages = true,
-  closable = false,
+  --[[ closable = false, ]]
   clickable = false,
-  icons = false,
+  icons = { filetype = { enabled = false } },
   icon_custom_colors = false,
   insert_at_end = false,
   insert_at_start = false,
