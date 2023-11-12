@@ -18,6 +18,7 @@ Scripts:
 Images:
 - [Purple](https://www.pixel4k.com/stains-purple-gradient-colorful-4k-50970.html)
 - [Castle with Mountains](https://whvn.cc/m39mzk)
+- [Rus Subway](https://www.instagram.com/p/BuTGmvDFLPF/)
 
 Other stuff:
 - [Starship prompt](https://starship.rs/)
