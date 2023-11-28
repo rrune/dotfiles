@@ -39,7 +39,8 @@ bspc config focused_border_color  '#1c1c1c'
 
 if [[ "$DEVICE" = "PC" ]]; then
     bspc rule -a discord desktop=8
-    bspc rule -a Thunderbird desktop=1
+    bspc rule -a thunderbird desktop=1
+    bspc rule -a kitty desktop=4
 fi
 
 # launch stuff
