@@ -16,7 +16,6 @@ greenclip daemon &
 lxpolkit &
 nvidia-settings --load-config-only &
 xset m 0 0 &
-xinput --set-prop 10 "libinput Accel Speed" -0.3 &
 xsetroot -cursor_name left_ptr &
 $HOME/.config/polybar/launch.sh &
 
