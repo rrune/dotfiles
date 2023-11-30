@@ -37,10 +37,10 @@ qndelete() {
 export LPDEST="Kyocera_FS-1370DN" # Printer
 
 #docker
-alias dups="docker-compose up"
-alias dup="docker-compose up -d"
-alias dop="docker-compose stop"
-alias dwn="docker-compose down"
+alias dups="docker compose up"
+alias dup="docker compose up -d"
+alias dop="docker compose stop"
+alias dwn="docker compose down"
 
 #vpn
 alias vup="sudo wg-quick up rune"
