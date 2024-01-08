@@ -5,7 +5,7 @@ set +a
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-[[ "$DEVICE" = "PC" ]] && xrandr --output HDMI-0 --primary --mode 1920x1080 --rate 75.00 --output DVI-D-0 --mode 1280x1024 --rate 75.00 --right-of HDMI-0 --output DP-1 --mode 1280x1024 --rate 75.00 --left-of HDMI-0 &
+[[ "$DEVICE" = "PC" ]] && xrandr --output DisplayPort-0 --primary --mode 1920x1080 --rate 75.00 --output DisplayPort-1 --mode 1280x1024 --rate 75.00 --right-of DisplayPort-0 --output DisplayPort-2 --mode 1280x1024 --rate 75.00 --left-of DisplayPort-0 &
 xrandr --dpi 81 &
 bash ~/.fehbg &
 wmname LG3D &
@@ -22,9 +22,9 @@ $HOME/.config/polybar/launch.sh &
 [[ "$DEVICE" = "LT" ]] && bspc monitor eDP1 -d 1 2 3 4 5
 
 if [[ "${DEVICE}" = "PC" ]]; then
-    bspc monitor DP-1 -d 1 2 3
-    bspc monitor HDMI-0 -d 4 5 6 7
-    bspc monitor DVI-D-0 -d 8 9 10
+    bspc monitor DisplayPort-2 -d 1 2 3
+    bspc monitor DisplayPort-0 -d 4 5 6 7
+    bspc monitor DisplayPort-1 -d 8 9 10
 fi
 
 bspc config border_width          0
