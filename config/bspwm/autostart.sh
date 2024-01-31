@@ -1,4 +1,3 @@
 discord &
 thunderbird &
-kitty &
 
