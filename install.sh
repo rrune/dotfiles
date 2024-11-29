@@ -19,6 +19,9 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     ssh-keygen -t rsa -b 4096
 fi
 
+echo "-> Creating ~/.config if it does not exist"
+mkdir -p ~/.config
+
 echo "-> Linking bashrc"
 ln -sf ${SCRIPT_DIR}/bashrc ~/.bashrc
 
