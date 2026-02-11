@@ -64,6 +64,9 @@ alias getIP="curl ifconfig.me"
 #vscodium
 alias code="codium"
 
+#laravel sail
+alias sail='./vendor/bin/sail'
+
 #ls and cd
 cdl() {
   cd $1 && exa
