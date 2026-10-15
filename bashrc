@@ -34,7 +34,7 @@ qndelete() {
 }
 
 #env
-export LPDEST="Kyocera_FS-1370DN" # Printer
+#export LPDEST="Kyocera_FS-1370DN" # Printer
 
 #docker
 alias dups="docker compose up"
